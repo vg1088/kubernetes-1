@@ -18,3 +18,11 @@
 
 ### check the version
 - kubectl version --client
+
+## Commands to install minikube in linux
+- curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_latest_amd64.deb
+
+- sudo dpkg -i minikube_latest_amd64.deb
+- minikube start --force
+- minikube status
+
